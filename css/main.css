@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F9F9F9;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.entrando{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    margin: 5px 0;
+    border: 1px solid lightgray;
+}
+
+.logo-instagram{
+    height: 100px;
+    background-color: transparent;
+}
+
+.foto-perfil img{
+    width: 150px;
+    padding-top: 90px;    
+}
+
+.foto-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.continuar{
+    background-color: #0095f6;
+    width: 220px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.remover{
+    font-weight: bold;
+    color: #0095f6;
+    padding: 20px 0 25px;
+}
+
+.conta-errada{
+    padding: 20px 0;
+}
+
+.conta-errada p{
+    padding: 1.5px 0;
+    font-weight: bold;
+}
+
+span{
+    color: #0095f6;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+.baixar-app{
+    text-align: center;
+}
+
+.baixar-app p{
+    padding: 20px 0;
+}
+
+.baixar-app img{
+    width: 150px;
+    height: 45px;
+}
+
+@media (max-width: 1280px){
+    .flex{
+        width: 90%;
+    }
+}
+
+@media (max-width: 800px){
+    .flex{
+        width: 90%;
+    }
+    .phone{
+        display: none;
+    }
+
+    .entrando{
+        width: 100%;
+    }
+}
